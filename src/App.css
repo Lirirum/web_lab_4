@@ -1,0 +1,302 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+body{
+  background: #fff;
+  color: #222;
+  font-weight: 300;
+}
+
+
+
+
+
+header ul.nav {
+ 
+  list-style: none;
+
+}
+
+
+.top-box{
+  background:black; 
+  height: 55px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+ 
+
+}
+
+header ul.nav  li{
+  display: inline-block;
+  margin-left: 25px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+
+.wrapper{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+
+
+}
+
+#main_wrapper{
+  width: 100%;
+}
+
+.main_container{
+  width: 1500px;
+  margin: 0 auto;
+  
+}
+
+#catalog_btn{
+  align-items: center;
+  background-color: #196bc9;
+  border: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-weight: 700;
+  height: 50px;
+  justify-content: center;
+  max-width: 100%;
+  padding-left: 5px;
+  padding-right: 5px;
+  position: relative;
+  width: 100%;
+
+}
+.header__bottom {
+  height: 70px;
+  width: 100%;
+  flex-grow: 2;
+
+ 
+}
+
+.header__bottom-box{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: space-between;
+  
+}
+.header__bottom-left{
+  align-items: center;
+  display: flex;
+  flex-grow: 2;
+}
+
+.header_menu{
+ 
+  display: flex;
+
+
+ 
+  
+
+}
+
+.container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 0 15px;
+  width: 1560px;
+}
+
+
+
+
+
+
+.dropdown-menu {
+  width: 230px;
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display:  block;
+  position: absolute;
+  background-color: #f1f1f1;
+  width: 100%; 
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-menu:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.dropdown-content li {
+  padding: 5px;
+}
+
+.dropdown-content li:hover {
+  background-color: #f0f0f0;
+}
+
+
+.header__search{
+  width: 100%;
+  max-width: 675px;
+  display: flex;
+  padding-left: 10px;
+  height: 50px;
+  background-color: #fff;
+  position: relative;
+}
+
+
+.header__search input{
+   
+  box-sizing: border-box;
+  color: #999;
+  flex-grow: 1;
+  font-size: 14px;
+  font-weight: 400;
+  height: 100%;
+  width: 100%;
+  padding-left: 41px;
+  padding-right: 10px;
+  
+
+
+
+}
+
+.btn_search{
+  align-items: center;
+  background-color: #338b00;
+  background-image: linear-gradient(0deg,#338b00 0,#338b00 46%,#00b100);
+  border: none;  
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-weight: 700;
+  justify-content: center;
+  padding: 16px 32px;
+  position: relative;
+  transition: color .5s,background-color .5s
+  
+}
+  
+
+
+.product-card {
+  border-radius: 3px;
+  display: block;
+  border: 1px solid #ccc;
+  padding: 16px;
+  height: 100%;
+  text-align: center;
+  max-width: 250px;
+  height: 350px;
+
+  
+}
+
+.product-card img {
+  max-width: 100%;
+  max-height:250px ;
+ 
+}
+
+.product-card h3 {
+  font-size: 18px;
+  margin: 10px 0;
+  max-height: 50px;
+  overflow: hidden; 
+
+}
+
+.product-card p {
+  font-size: 14px;
+}
+
+.product-card button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.product-card button:hover {
+  background-color: #0056b3;
+}
+
+.product-list{
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: content-box;
+  gap: 16px;
+  height: 100%;
+  justify-content: space-between;
+  
+
+}
+
+.list_contaier{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
